@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,700|Roboto:300,300i,400,400i,500,500i,700,700i");
+
+::selection {
+  background-color: #a4272b;
+  color: #FFFFFF;
+}
+
+/* Button */
+.tittle {
+  text-align: center;
+  /* text-transform: uppercase; */
+}
+.tittle h2 {
+  font: 500 40px "Roboto", sans-serif;
+  color: #a4272b;
+  padding-top: 1%;
+  position: relative;
+}
+.tittle h2:after {
+  content: "";
+  position: absolute;
+  background: #222222;
+  height: 5px;
+  width: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -30px;
+}
+.tittle h4 {
+  font: 400 14px "Roboto", sans-serif;
+  color: #222222;
+  padding-top: 55px;
+}
+
+.subtittle h2 {
+  font: 500 30px "Roboto", sans-serif;
+  color: #a4272b;
+  /* text-transform: uppercase; */
+  position: relative;
+  margin-bottom: 20px;
+}
+/*.subtittle h2:after {*/
+/*  content: "";*/
+/*  position: absolute;*/
+/*  height: 2px;*/
+/*  width: 80px;*/
+/*  background: #222222;*/
+/*  left: 0;*/
+/*  bottom: -22px;*/
+/*}*/
+
+
+
+/*body {*/
+/*  font-family: "Roboto", sans-serif;*/
+
+/*}*/
+body h2, body h4 {
+  margin: 0;
+}
+body p {
+  font-family: "Roboto", sans-serif;
+  line-height: 26px;
+  color: #555555;
+  margin: 0;
+}
+body section.row {
+  margin: 0;
+}
+
+.about_us_area {
+  background: #fefefe;
+}
+.about_us_area .about_row {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.about_us_area .about_row p {
+  font: 400 14px/26px "Roboto", sans-serif;
+  color: #222222;
+  padding-top: 0px;
+  padding-bottom: 54px;
+}
+.about_us_area .about_row .about_client {
+  padding-top: 0px;
+}
+.about_us_area .about_row .about_client img {
+  max-width: 100%;
+}
+@media (max-width: 767px) {
+
+  .about_us_area .about_row .about_client {
+    padding-top: 40px;
+  }
+
+  .about_client.about_pages_client {
+    padding-top: 0 !important;
+    padding-bottom: 30px;
+  }
+}
+/*--------------------------------------------------*/
+
+/*# sourceMappingURL=style.css.map */
+@media (min-width: 767px) and (max-width: 991px) {
+  /*  .about_us_area .about_row .about_client img {*/
+  
+   
+  /*}*/
+  .about_us_area .about_row .about_client {
+    padding-top: 20%;
+  }
+}
+
+
